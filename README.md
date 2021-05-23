@@ -38,19 +38,19 @@
 
 Экран входа в приложение:
 
-![login](https://github.com/EvgenLipilin/thesis-work/blob/master/login.gif)
+![login](https://github.com/EvgenLipilin/netology_Diplom/blob/master/login.gif)
 
 Лента постов:
 
-![feed](https://github.com/EvgenLipilin/thesis-work/blob/master/feed.gif)
+![feed](https://github.com/EvgenLipilin/netology_Diplom/blob/master/feed.gif)
 
 Экран Профиля:
 
-![profile](https://github.com/EvgenLipilin/thesis-work/blob/master/profile.gif)
+![profile](https://github.com/EvgenLipilin/netology_Diplom/blob/master/profile.gif)
 
 Экран нового поста:
 
-![newpost](https://github.com/EvgenLipilin/thesis-work/blob/master/newpost.gif)
+![newpost](https://github.com/EvgenLipilin/netology_Diplom/blob/master/newpost.gif)
 
 
 ### Особенности реализации
