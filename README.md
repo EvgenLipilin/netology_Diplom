@@ -67,7 +67,7 @@
 
 Дизайн и структура приложения реализовано по данному макету, с небольшими правками по UI:
 
-![Layout design](https://github.com/EvgenLipilin/thesis-work/blob/master/maket.png)
+![Layout design](https://github.com/EvgenLipilin/netology_Diplom/blob/master/maket.png)
 
 ### Запуск сервера
 
