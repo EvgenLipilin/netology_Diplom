@@ -9,7 +9,7 @@
 "New" = "Новый Пост";
 "Next" = "Далее";
 "Share" = "Опубликовать";
-"Add description" = "Описание";
+"Add description" = "Описание публикации";
 "Filters" = "Фильты";
 "Following:" = "Подписчики:";
 "Followers:" = "Подписки:";
@@ -17,12 +17,23 @@
 "Followers" = "Подписка";
 "Password" = "Введите пароль";
 "Login" = "Ваш логин";
-"Sign in" = "Вход";
-"Log out" = "Выход";
+"Sign in" = "Войти";
+"Log out" = "Выйти";
 "Likes:" = "Понравилось:";
 "Like it" = "Нравится";
 "Unfollow" = "Отписаться";
 "Follow" = "Подписаться";
+"Offline Mode" = "Оффлайн режим активирован!";
+"invalid username or password" = "Упс, неверный логин или пароль, введите верный!";
+"Unauthorized" = "Не авторизован";
+"CIGaussianBlur" = "Размытие по Гауссу";
+"CIMotionBlur" = "Эффект размытости";
+"CIColorInvert" = "Инверсия цвета";
+"CISepiaTone" = "Эффект сепии";
+"CIPhotoEffectNoir" = "Эффект нуара";
+
+
+
 
 
 

@@ -32,7 +32,7 @@ class AlertViewController: UIViewController {
         }
         
         if let error = error as? ErrorManager {
-            title = error.rawValue
+            title = error.localized
         }
         
         let alert = UIAlertController(title: title, message: massege, preferredStyle: .alert)

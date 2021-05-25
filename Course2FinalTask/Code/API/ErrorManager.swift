@@ -9,8 +9,18 @@
 import Foundation
 
 enum ErrorManager: String, Error {
-    case unauthorized = "Unauthorized"
-    case offlineMode = "Offline Mode"
-    case login = "invalid username or password"
-}
+    case unauthorized
+    case offlineMode
+    case login
 
+    var localized: String {
+      switch self {
+        case .unauthorized:
+return NSLocalizedString("Unauthorized", tableName: "Localizable", bundle: .main, value: "", comment: "")
+      case .offlineMode:
+        return NSLocalizedString("Offline Mode", tableName: "Localizable", bundle: .main, value: "", comment: "")
+      case .login:
+        return NSLocalizedString("invalid username or password", tableName: "Localizable", bundle: .main, value: "", comment: "")
+      }
+    }
+}

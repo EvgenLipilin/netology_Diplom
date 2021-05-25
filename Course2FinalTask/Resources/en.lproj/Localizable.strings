@@ -7,10 +7,10 @@
 */
 
 "New" = "New";
-"Next" = "New";
+"Next" = "Next step";
 "Share" = "Share";
-"Add description" = "Add description";
-"Filters" = "Filters";
+"Add description" = "Add description publication";
+"Filters" = "All Filters";
 "Following:" = "Following:";
 "Followers:" = "Followers:";
 "Following" = " Following";
@@ -23,3 +23,11 @@
 "Like it" = "Like it";
 "Unfollow" = "Unfollow";
 "Follow" = "Follow";
+"Offline Mode" = "Off line mode turned on";
+"invalid username or password" = "Oops, invalid user data. Try to enter the correct ones!";
+"Unauthorized" = "Unauthorized";
+"CIGaussianBlur" = "Gaussian Blur";
+"CIMotionBlur" = "Motion Blur";
+"CIColorInvert" = "Color Invert";
+"CISepiaTone" = "Sepia Tone";
+"CIPhotoEffectNoir" = "Effect Noir";
