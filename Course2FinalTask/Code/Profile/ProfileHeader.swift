@@ -19,7 +19,7 @@ final class ProfileHeaderCell: UICollectionViewCell {
     
     //    MARK: - Public Properties
     weak var delegate: FollowUnfollowDelegate?
-    
+    var users: User?
     var currentUser: User?
     var user: User? {
         didSet {

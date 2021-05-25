@@ -77,7 +77,8 @@ final class AutorizationViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "InstaPhoto"
         label.textColor = .label
-        label.font = UIFont(name: "VeganStylePersonalUse", size: 36)
+        label.numberOfLines = 0
+        label.font = UIFont(name: "VeganStylePersonalUse", size: 32)
         label.sizeToFit()
         return label
     }()
