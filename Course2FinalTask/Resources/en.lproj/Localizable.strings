@@ -26,8 +26,12 @@
 "Offline Mode" = "Off line mode turned on";
 "invalid username or password" = "Oops, invalid user data. Try to enter the correct ones!";
 "Unauthorized" = "Unauthorized";
-"CIGaussianBlur" = "Gaussian Blur";
-"CIMotionBlur" = "Motion Blur";
-"CIColorInvert" = "Color Invert";
-"CISepiaTone" = "Sepia Tone";
-"CIPhotoEffectNoir" = "Effect Noir";
+"CIGaussianBlur" = "GaussianBlur";
+"CIMotionBlur" = "MotionBlur";
+"CIColorInvert" = "Invert";
+"CISepiaTone" = "Sepia";
+"CIPhotoEffectNoir" = "Noir";
+"CIVignetteEffect" = "Vignette";
+"CIPixellate" = "Pixel";
+"CICircularScreen" = "CircularScreen";
+

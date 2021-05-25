@@ -13,7 +13,7 @@
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="FeedCell" reuseIdentifier="FeedCell" id="gTV-IL-0wX" customClass="FeedCell" customModule="Course2FinalTask" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="500" height="842"/>
-            <autoresizingMask key="autoresizingMask"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="500" height="842"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -41,9 +41,11 @@
                             <constraint firstAttribute="height" constant="35" id="gBk-wu-aOm"/>
                         </constraints>
                     </imageView>
-                    <imageView verifyAmbiguity="ignoreSizes" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="500" verticalHuggingPriority="500" translatesAutoresizingMaskIntoConstraints="NO" id="1Cs-gA-EYU">
+                    <imageView verifyAmbiguity="ignoreSizes" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="500" verticalHuggingPriority="700" translatesAutoresizingMaskIntoConstraints="NO" id="1Cs-gA-EYU">
                         <rect key="frame" x="0.0" y="51" width="500" height="666"/>
-                        <viewLayoutGuide key="safeArea" id="mis-GN-3t7"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="666" id="d4Z-nh-blv"/>
+                        </constraints>
                     </imageView>
                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgw-85-IGM" userLabel="HeartButton">
                         <rect key="frame" x="460" y="727" width="25" height="25"/>
@@ -64,7 +66,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1q-H0-3dl" userLabel="labellike">
-                        <rect key="frame" x="10" y="725" width="31" height="30"/>
+                        <rect key="frame" x="15" y="727" width="31" height="25"/>
                         <state key="normal" title="wow">
                             <color key="titleColor" systemColor="systemBlueColor"/>
                         </state>
@@ -83,13 +85,14 @@
                 <constraint firstItem="su0-X0-AVh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="PCH-HL-VdT"/>
                 <constraint firstAttribute="trailing" secondItem="1Cs-gA-EYU" secondAttribute="trailing" id="R8f-XM-zHj"/>
                 <constraint firstItem="Tty-6I-bAW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="YNc-9W-9Az"/>
-                <constraint firstItem="i1q-H0-3dl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="YxQ-yb-nnc"/>
+                <constraint firstItem="i1q-H0-3dl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="YxQ-yb-nnc"/>
                 <constraint firstAttribute="trailing" secondItem="fgw-85-IGM" secondAttribute="trailing" constant="15" id="Z64-GC-ICi"/>
                 <constraint firstItem="cDl-l4-hf0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="27" id="dDI-a0-ot5"/>
                 <constraint firstItem="BOV-ez-lrF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="fxh-BM-MTr"/>
                 <constraint firstAttribute="bottom" secondItem="BOV-ez-lrF" secondAttribute="bottom" constant="16" id="lYP-o5-71W"/>
                 <constraint firstItem="BOV-ez-lrF" firstAttribute="top" secondItem="fgw-85-IGM" secondAttribute="bottom" constant="4" id="osJ-PI-tbI"/>
-                <constraint firstItem="i1q-H0-3dl" firstAttribute="top" secondItem="1Cs-gA-EYU" secondAttribute="bottom" constant="8" id="vsN-f1-iJp"/>
+                <constraint firstItem="fgw-85-IGM" firstAttribute="centerY" secondItem="i1q-H0-3dl" secondAttribute="centerY" id="q7N-21-BHE"/>
+                <constraint firstItem="i1q-H0-3dl" firstAttribute="top" secondItem="1Cs-gA-EYU" secondAttribute="bottom" constant="10" id="vsN-f1-iJp"/>
                 <constraint firstItem="1Cs-gA-EYU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vx9-3H-ozc"/>
             </constraints>
             <size key="customSize" width="501" height="662"/>

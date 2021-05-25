@@ -32,7 +32,7 @@ class AddFilterViewController: UIViewController {
         return collView
     }()
     
-    private let arrayOfFilters = ["CIGaussianBlur", "CIMotionBlur", "CIColorInvert", "CISepiaTone", "CIPhotoEffectNoir"]
+    private let arrayOfFilters = ["CIGaussianBlur", "CIMotionBlur", "CIColorInvert", "CISepiaTone", "CIPhotoEffectNoir", "CIVignetteEffect", "CICircularScreen", "CIPixellate"]
     
     //    MARK: - Initializers
     init(bigImage: UIImage) {

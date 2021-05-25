@@ -25,6 +25,8 @@ class FilterCell: UICollectionViewCell {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFill
+        imageView.clipsToBounds = true
+        imageView.layer.cornerRadius = 8
         return imageView
     }()
     
@@ -40,9 +42,9 @@ class FilterCell: UICollectionViewCell {
     
     //    MARK:- Methods
     func createCell(name: String, image: UIImage) {
-        filterName.text = name
+        filterName.text = NSLocalizedString(name, tableName: "Localizable", bundle: .main, value: "", comment: "")
         
-        let operation = FilterOperation(image: image, filter: name)
+        let operation = FilterOperation(image: image, filter: name )
         operation.completionBlock = { [weak self] in
             guard let self = self else { return }
             DispatchQueue.main.async {

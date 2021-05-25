@@ -24,7 +24,7 @@ class AlertViewController: UIViewController {
     func createAlert(error: Error?) {
         
         var title = "Unknown error!"
-        var massege = "Please, try again later."
+        var massege = ""
         
         if TabBarController.offlineMode == true {
             title = "Offline mode"

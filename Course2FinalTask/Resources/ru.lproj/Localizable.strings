@@ -26,11 +26,14 @@
 "Offline Mode" = "Оффлайн режим активирован!";
 "invalid username or password" = "Упс, неверный логин или пароль, введите верный!";
 "Unauthorized" = "Не авторизован";
-"CIGaussianBlur" = "Размытие по Гауссу";
-"CIMotionBlur" = "Эффект размытости";
-"CIColorInvert" = "Инверсия цвета";
-"CISepiaTone" = "Эффект сепии";
-"CIPhotoEffectNoir" = "Эффект нуара";
+"CIGaussianBlur" = "Размытие";
+"CIMotionBlur" = "Размытость";
+"CIColorInvert" = "Инверсия";
+"CISepiaTone" = "Cепия";
+"CIPhotoEffectNoir" = "Нуар";
+"CIVignetteEffect" = "Виньетка";
+"CIPixellate" = "Пиксель";
+"CICircularScreen" = "Циркуляр";
 
 
 
